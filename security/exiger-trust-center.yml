@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://trustcenter.exiger.com/
+url: https://trustcenter.exiger.com/
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- NIST CSF
+- CMMC
+- FedRAMP
+subprocessors:
+- Jira
+- ServiceNow
+- Zendesk
+- Snowflake
+- Amazon Web Services (AWS)
+documents:
+- Master Services Agreement
+- Cyber Insurance
+notes: >-
+  Exiger publishes a dedicated Trust Center at trustcenter.exiger.com listing an
+  active security and compliance program. FedRAMP authorization is also announced
+  on the corporate About/security section. No responsible-disclosure or bug-bounty
+  contact and no public status page were found.
+evidence:
+- source: https://trustcenter.exiger.com/
+  keywords: [soc 2 type 2, iso/iec 27001:2022, nist csf, cmmc, fedramp, trust center]
+- source: https://www.exiger.com/about/#security
+  keywords: [fedramp authorized, trust center]

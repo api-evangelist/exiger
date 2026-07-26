@@ -1,7 +1,29 @@
 aid: exiger
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exiger.png
 name: EXIGER
-description: EXIGER is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Exiger is an AI-native supply chain, third-party, and software supply chain risk
+  and compliance company. Its 1Exiger platform unifies supplier, product, part,
+  component, and risk data into a single system to help organizations map and
+  orchestrate compliant, resilient physical and software supply chains. Product
+  areas span supply chain visibility and optimization, trade and third-party risk
+  and compliance, due diligence intelligence (DDIQ), and software supply chain
+  security (SBOM analysis, from its Ion Channel acquisition). Exiger serves
+  government and commercial customers and is FedRAMP authorized. This profile was
+  surfaced as an Insight Partners portfolio company and enriched from Exiger's
+  public corporate, trust, and legal surfaces; Exiger does not publish a public
+  developer portal, API reference, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/exiger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Supply Chain
+- Risk Management
+- Third-Party Risk
+- Compliance
+- Due Diligence
+- Software Supply Chain
+- SBOM
+- Governance, Risk, and Compliance
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.exiger.com/
+- type: Blog
+  url: https://www.exiger.com/perspectives/
+- type: Support
+  url: https://www.exiger.com/contact/
+- type: PrivacyPolicy
+  url: https://www.exiger.com/privacy-and-legal-center/#privacy-notice
+- type: TermsOfService
+  url: https://www.exiger.com/privacy-and-legal-center/#terms-conditions
+- type: TrustCenter
+  url: https://trustcenter.exiger.com/
+- type: Compliance
+  url: https://trustcenter.exiger.com/
+- type: DomainSecurity
+  url: security/exiger-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
